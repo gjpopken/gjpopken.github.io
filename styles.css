@@ -1,3 +1,4 @@
+
 h2, h3, h4 {
   text-align: center;
   margin: 5px 0;
@@ -51,12 +52,18 @@ header img {
   max-width: 300px;
   max-height: 300px;
   border-radius: 24px;
+  }
+
+@media (min-width: 1000px) {
+  header img {
+    margin: auto 0 auto 150px;
+  }
 }
 
 header {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   
 }
 
@@ -70,8 +77,20 @@ footer p {
 }
 
 .image {
-  flex-grow: 1;
-  flex-shrink: 1;
+  /**flex-grow: 1;
+  flex-shrink: 1;**/
+  border-color: red;
+  padding: 0;
+}
+
+@media (min-width: 1000px){
+  .blank {
+  border-color: red;
+  width: 450px;
+  height: 300px;
+  margin: 0;
+
+}
 }
 
 .intro {
