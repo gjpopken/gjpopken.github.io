@@ -1,0 +1,92 @@
+h2, h3, h4 {
+  text-align: center;
+  margin: 5px 0;
+}
+
+ul {
+  width: 60%;
+
+  margin: auto auto 10px auto;
+}
+
+.line {
+  border: dashed 1px rgba(49, 49, 49, .4);
+  width: 60%;
+  margin: 20px auto;
+}
+
+@media (min-width: 1000px){
+  #education, #work-history, #hobbies {
+    width: 45%;
+    margin: 25px auto auto auto;
+  }
+}
+
+#education {
+  background-color: #f39c9b;
+  padding: 10px;
+  border: solid 3px #ec6562;
+  border-radius: 24px;
+  margin-top: 25px;
+}
+
+
+#work-history {
+  background-color: #d6d6d6;
+  padding: 10px;
+  border: solid 3px #c6c6c6;
+  border-radius: 24px;
+  margin-top: 25px;
+}
+
+#hobbies {
+ background-color: #f39c9b;
+  padding: 10px;
+  border: solid 3px #ec6562;
+  border-radius: 24px;
+  margin-top: 25px;
+}
+
+header img {
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 24px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  
+}
+
+footer {
+  padding: 25px;
+}
+
+footer p {
+  margin: auto;
+  text-align: center;
+}
+
+.image {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.intro {
+  flex-grow: 2.5;
+  flex-shrink: 2.5;
+  text-align: center;
+}
+
+.intro p {
+  margin: 5px 0;
+}
+
+.intro h1 {
+  margin: 0;
+  font-family: copperplate, serif;
+}
+
+
