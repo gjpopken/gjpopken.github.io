@@ -1,4 +1,16 @@
 
+main {
+  width: 100%;
+  background-image: url(https://gavinpopkenart.files.wordpress.com/2023/04/sauron_01.png);
+  background-position: center center;
+  margin: 0px;
+  padding: 5px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
 h2, h3, h4 {
   text-align: center;
   margin: 5px 0;
@@ -24,7 +36,7 @@ ul {
 }
 
 #education {
-  background-color: #f39c9b;
+  background-color: #f39c9bf5;
   padding: 10px;
   border: solid 3px #ec6562;
   border-radius: 24px;
@@ -33,7 +45,7 @@ ul {
 
 
 #work-history {
-  background-color: #d6d6d6;
+  background-color: #d6d6d6f5;
   padding: 10px;
   border: solid 3px #c6c6c6;
   border-radius: 24px;
@@ -41,7 +53,7 @@ ul {
 }
 
 #hobbies {
- background-color: #f39c9b;
+ background-color: #f39c9bf5;
   padding: 10px;
   border: solid 3px #ec6562;
   border-radius: 24px;
@@ -61,14 +73,16 @@ header img {
 }
 
 header {
-  display: flex;
+  /**display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center;**/
   
 }
 
 footer {
   padding: 25px;
+  background-color: white;
+  width: 100%;
 }
 
 footer p {
@@ -107,5 +121,3 @@ footer p {
   margin: 0;
   font-family: copperplate, serif;
 }
-
-
