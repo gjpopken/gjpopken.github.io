@@ -1,10 +1,39 @@
 
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.collapsible-content {
+  display: none;
+}
+
+.collapsible-btn {
+  position: absolute;
+  right: 20px;
+  top: 23px;
+  cursor: pointer;
+}
+
+.button {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid grey;
+}
 main {
-  width: 100%;
+
+  min-height: 1000px;;
   background-image: url(https://gavinpopkenart.files.wordpress.com/2023/04/sauron_01.png);
   background-position: center center;
   margin: 0px;
   padding: 5px;
+  border-color: green;
 }
 
 h1 {
@@ -41,6 +70,7 @@ ul {
   border: solid 3px #ec6562;
   border-radius: 24px;
   margin-top: 25px;
+  position: relative;
 }
 
 
@@ -50,6 +80,7 @@ ul {
   border: solid 3px #c6c6c6;
   border-radius: 24px;
   margin-top: 25px;
+  position: relative;
 }
 
 #hobbies {
@@ -59,24 +90,11 @@ ul {
   border-radius: 24px;
   margin-top: 25px;
   margin-bottom: 25px;
-}
-
-header img {
-  max-width: 300px;
-  max-height: 300px;
-  border-radius: 24px;
-  }
-
-@media (min-width: 1000px) {
-  header img {
-    margin: auto 0 auto 150px;
-  }
+  position: relative;
 }
 
 header {
-  /**display: flex;
-  align-items: center;
-  justify-content: center;**/
+  margin-bottom: 25px;
   
 }
 
